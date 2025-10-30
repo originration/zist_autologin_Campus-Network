@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "中原科技学院校园网自动登录",
+  "version": "1.0",
+  "description": "中原科技学院许昌校区校园网自动登录插件，理论上支持所有dr.com认证页面",
+  "permissions": ["storage"],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ZIST校园网自动登录"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
+    
