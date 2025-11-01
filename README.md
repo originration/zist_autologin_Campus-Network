@@ -15,7 +15,7 @@
 
 理论上windows每次开机如果没有登录会自动弹出浏览器进入登录页面，借助此插件可以弹出后可直接登录
 
-[这是python版本的](GitHub - originration/zist_autologin_python)，里面有登录原理解析，感兴趣的同学可以研究一下
+[这是python版本的][(GitHub - originration/zist_autologin_python)](https://github.com/originration/zist_autologin_python)，里面有登录原理解析，感兴趣的同学可以研究一下
 
 喜欢请帮我点颗star！
 
@@ -38,7 +38,5 @@
 6、点击浏览器右上角扩展选项，置顶插件并点击
 
 7、填写自己的信息点击保存
-
-
 
 8、浏览器地址栏输入172.22.5.2测试是否正常登录。
